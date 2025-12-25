@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Janmarine</title>
+    
+    <style>
+      /* Hide Google Translate banner */
+      .goog-te-banner-frame.skiptranslate {
+        display: none !important;
+      }
+      
+      body {
+        top: 0px !important;
+      }
+      
+      /* Hide "Powered by" text */
+      .goog-te-gadget-simple {
+        border: none !important;
+        background: transparent !important;
+      }
+      
+      .goog-te-gadget-simple .goog-te-menu-value {
+        color: transparent !important;
+      }
+      
+      .goog-te-gadget-simple .goog-te-menu-value span:first-child {
+        display: none !important;
+      }
+      
+      .goog-te-gadget-simple .goog-te-menu-value span:last-child {
+        display: none !important;
+      }
+      
+      /* Hide the Google icon */
+      .goog-te-gadget-icon {
+        display: none !important;
+      }
+      
+      /* Style the select dropdown */
+      .goog-te-combo {
+        padding: 8px 16px !important;
+        background-color: #2563eb !important;
+        color: white !important;
+        border: none !important;
+        border-radius: 9999px !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        cursor: pointer !important;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1) !important;
+        transition: all 0.2s !important;
+        outline: none !important;
+      }
+      
+      .goog-te-combo:hover {
+        background-color: #1d4ed8 !important;
+      }
+      
+      .goog-te-combo:focus {
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3) !important;
+      }
+      
+      .goog-te-combo option {
+        background-color: white !important;
+        color: black !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
